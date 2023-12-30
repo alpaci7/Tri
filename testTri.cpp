@@ -171,5 +171,17 @@ int main(){
 	cout << "Après le Tri Rapide: ";
 	triRapide(t17, 5);
 	printVector(t17, 5);
+	
+	
+	delete[] t3;
+	delete[] t4;
+	delete[] t5;
+	delete[] t6;
+	delete[] t7;
+	delete[] t8;
+	delete[] t9;
+	delete[] t10;
+	delete[] t11;
+	delete[] t12;
 
 }

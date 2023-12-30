@@ -126,7 +126,11 @@ void triParFusion(T *t, int n){
 			if (i1 < n1 && (i2 >= n2 || t1[i1] <= t2[i2])) t[i] = t1[i1++] ;
 			else t[i] = t2[i2++];
 		}
+		delete[] t1;
+		delete[] t2;
+	
 	}
+	
 }
 
 template <typename T>
@@ -159,6 +163,8 @@ void triRapide(T *t, int n){
 			*(t+i+i1) = *(t2+i);
 		}
 		
+		delete[] t1;
+		delete[] t2;
 	}
 }
 
